@@ -6,8 +6,12 @@ function findMatching (collection, name) {
     });
 }
 
+function fuzzyMatch(collection, letter) {
+   return collection.filter(function (driverName) { return driverName.slice(0, letter.length) === letter;
+    });
+}
 
-
-function fuzzyMatch(collection, letter){
-  return collection.filter( function())
+function matchName(collection, name) {
+    return collection.filter(function (driverName) { return driverName.name === name;
+    })
 }
