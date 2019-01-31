@@ -8,6 +8,6 @@ function findMatching (collection, name) {
 
 
 
-function fuzzyMatch(collection, letters){
+function fuzzyMatch(collection, letter){
   return collection.filter( function())
 }
