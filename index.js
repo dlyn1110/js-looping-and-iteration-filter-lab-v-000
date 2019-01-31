@@ -6,7 +6,7 @@ function findMatching (collection, name) {
     });
 }
 
-}
+
 
 function fuzzyMatch(collection, letters){
   return collection.filter( function())
